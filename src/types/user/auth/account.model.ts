@@ -1,3 +1,5 @@
+import { UserPreferencesModel } from "../../../models";
+
 export interface Account {
   id: string;
   name: string;
@@ -5,4 +7,5 @@ export interface Account {
   secondSurname: string;
   email: string;
   username: string;
+  preferences?: UserPreferencesModel;
 }
