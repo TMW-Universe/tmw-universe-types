@@ -1,0 +1,24 @@
+{
+  "name": "@tmw-universe/tmw-universe-types",
+  "version": "1.0.0",
+  "description": "React package that provides types for TMW Universe TypeScript projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist",
+    "dist/**"
+  ],
+  "dependencies": {
+    "@types/node": "^20.4.4"
+  }
+}
