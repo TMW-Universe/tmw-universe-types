@@ -7,5 +7,8 @@ export interface Account {
   secondSurname: string;
   email: string;
   username: string;
-  preferences?: UserPreferencesModel;
+  preferences?: Omit<
+    UserPreferencesModel,
+    "id" | "user" | "userId" | "createdAt" | "updatedAt"
+  >;
 }
