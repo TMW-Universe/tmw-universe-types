@@ -16,4 +16,5 @@ export interface UserPreferencesModel extends Omit<ITimestamps, "deletedAt"> {
   currency: Currency;
   color: string;
   theme: Theme;
+  dateFormat?: string;
 }
