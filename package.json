@@ -1,6 +1,6 @@
 {
   "name": "@tmw-universe/tmw-universe-types",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Package that provides types for TMW Universe TypeScript projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
